@@ -703,3 +703,61 @@ a {
   background: #111111;
 }
 
+/* section five */
+
+.fifth-part {
+  background: #2251ff;
+  color: #ffffff;
+  padding: 70px 80px 80px;
+  text-align: center;
+}
+
+.impact-label {
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+
+.impact-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 42px;
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+.impact-row {
+  display: flex;
+  gap: 28px;
+  margin-top: 48px;
+  text-align: left;
+}
+
+.impact-card {
+  flex: 1;
+  padding: 12px 12px 22px;
+}
+
+.impact-card:hover {
+  background: #ffffff;
+  color: #111111;
+}
+
+.impact-pic {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 18px;
+}
+
+.impact-name {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.impact-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
