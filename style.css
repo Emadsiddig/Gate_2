@@ -761,3 +761,126 @@ a {
   font-size: 16px;
   line-height: 1.5;
 }
+
+/* section six */
+
+.sixth-part {
+  background: #ffffff;
+  color: #111111;
+  padding: 50px 80px 40px;
+  text-align: center;
+}
+
+.app-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+
+.app-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  text-align: left;
+}
+
+.app-left {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.phones {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.dev {
+  display: block;
+  background: #2251ff;
+  border: 5px solid #111111;
+  border-radius: 10px;
+}
+
+.phone {
+  width: 58px;
+  height: 118px;
+}
+
+.tablet {
+  width: 96px;
+  height: 128px;
+}
+
+.qr-box {
+  text-align: center;
+}
+
+.qr-pic {
+  width: 130px;
+  height: 130px;
+  display: block;
+}
+
+.qr-text {
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 6px;
+}
+
+.app-name {
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.store-row {
+  display: flex;
+  gap: 10px;
+}
+
+.store-btn {
+  background: #111111;
+  color: #ffffff;
+  padding: 10px 14px;
+  font-size: 13px;
+}
+
+.legal-box {
+  background: #f3f3f3;
+  color: #111111;
+  padding: 18px 80px 28px;
+}
+
+.legal-box summary {
+  cursor: pointer;
+  font-size: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #111111;
+}
+
+.legal-text {
+  max-width: 900px;
+  margin-top: 18px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.legal-text p,
+.legal-text ul {
+  margin-bottom: 14px;
+}
+
+.legal-text ul {
+  padding-left: 22px;
+}
+
+.legal-text a {
+  text-decoration: underline;
+}
