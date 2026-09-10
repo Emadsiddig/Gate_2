@@ -439,3 +439,57 @@ a {
   height: 64px;
   background: linear-gradient(to right, #1638c9, #4b86ff);
 }
+
+/* third part */
+
+.third-part {
+  padding: 48px 80px 40px;
+  background: linear-gradient(to right, #051c2c, #2563eb);
+}
+
+.pod-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 52px;
+  font-weight: normal;
+  margin-bottom: 18px;
+}
+
+.pod-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+  margin-bottom: 22px;
+}
+
+.pod-small {
+  max-width: 720px;
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+.listen-btn {
+  border: 1px solid #ffffff;
+  padding: 12px 22px;
+  white-space: nowrap;
+}
+
+.pod-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.icon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #000000;
+}
+
+.icon-btn svg {
+  width: 16px;
+  height: 16px;
+}
